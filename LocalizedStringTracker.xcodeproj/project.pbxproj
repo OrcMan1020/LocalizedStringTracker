@@ -7,13 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8C71CF67E0C39378808589 /* Pods_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73997CDC6B381EA9DE4BE1CA /* Pods_example.framework */; };
 		F85A38F91E4B056100D6A20B /* LocalizedStringTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = F85A38F71E4B056100D6A20B /* LocalizedStringTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85A39071E4B057600D6A20B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39061E4B057600D6A20B /* main.m */; };
+		F85A39121E4B057600D6A20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85A39111E4B057600D6A20B /* Assets.xcassets */; };
+		F85A391E1E4B06DA00D6A20B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85A39201E4B06DA00D6A20B /* Localizable.strings */; };
+		F85A39271E4B0E8600D6A20B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39231E4B0E8600D6A20B /* AppDelegate.m */; };
+		F85A39291E4B0E8600D6A20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85A39251E4B0E8600D6A20B /* LaunchScreen.storyboard */; };
+		F85A39341E4B0F6800D6A20B /* GlobalTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39311E4B0F6800D6A20B /* GlobalTimelineViewController.m */; };
+		F85A39351E4B0F6800D6A20B /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39331E4B0F6800D6A20B /* PostTableViewCell.m */; };
+		F85A393A1E4B0FA700D6A20B /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39371E4B0FA700D6A20B /* Post.m */; };
+		F85A393B1E4B0FA700D6A20B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39391E4B0FA700D6A20B /* User.m */; };
+		F85A393E1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A393D1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.m */; };
+		F85A39421E4B12B500D6A20B /* NSObject+LSTHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F85A39401E4B12B500D6A20B /* NSObject+LSTHelper.h */; };
+		F85A39431E4B12B500D6A20B /* NSObject+LSTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39411E4B12B500D6A20B /* NSObject+LSTHelper.m */; };
+		F85A39461E4B135700D6A20B /* NSBundle+LSTHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F85A39441E4B135700D6A20B /* NSBundle+LSTHelper.h */; };
+		F85A39471E4B135700D6A20B /* NSBundle+LSTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39451E4B135700D6A20B /* NSBundle+LSTHelper.m */; };
+		F85A394A1E4B138800D6A20B /* NSString+LSTHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F85A39481E4B138800D6A20B /* NSString+LSTHelper.h */; };
+		F85A394B1E4B138800D6A20B /* NSString+LSTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39491E4B138800D6A20B /* NSString+LSTHelper.m */; };
+		F85A394E1E4B165B00D6A20B /* FormatScaner.h in Headers */ = {isa = PBXBuildFile; fileRef = F85A394C1E4B165B00D6A20B /* FormatScaner.h */; };
+		F85A394F1E4B165B00D6A20B /* FormatScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A394D1E4B165B00D6A20B /* FormatScaner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F85A39501E4B173000D6A20B /* LocalizedStringTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85A38F41E4B056100D6A20B /* LocalizedStringTracker.framework */; };
+		F85A39541E4B191200D6A20B /* UILabel+LSTHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F85A39521E4B191200D6A20B /* UILabel+LSTHelper.h */; };
+		F85A39551E4B191200D6A20B /* UILabel+LSTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F85A39531E4B191200D6A20B /* UILabel+LSTHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003881AAF16A28CE9FFCA0E6 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-example/Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
+		1EBD7754B5CB93AB90E4C8D0 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
+		73997CDC6B381EA9DE4BE1CA /* Pods_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85A38F41E4B056100D6A20B /* LocalizedStringTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedStringTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85A38F71E4B056100D6A20B /* LocalizedStringTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedStringTracker.h; sourceTree = "<group>"; };
 		F85A38F81E4B056100D6A20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85A39031E4B057600D6A20B /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85A39061E4B057600D6A20B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F85A39111E4B057600D6A20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85A39161E4B057600D6A20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85A391F1E4B06DA00D6A20B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F85A39211E4B06DF00D6A20B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F85A39221E4B0E8600D6A20B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F85A39231E4B0E8600D6A20B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F85A39251E4B0E8600D6A20B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85A39301E4B0F6800D6A20B /* GlobalTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTimelineViewController.h; sourceTree = "<group>"; };
+		F85A39311E4B0F6800D6A20B /* GlobalTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTimelineViewController.m; sourceTree = "<group>"; };
+		F85A39321E4B0F6800D6A20B /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		F85A39331E4B0F6800D6A20B /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		F85A39361E4B0FA700D6A20B /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		F85A39371E4B0FA700D6A20B /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		F85A39381E4B0FA700D6A20B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F85A39391E4B0FA700D6A20B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F85A393C1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		F85A393D1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		F85A39401E4B12B500D6A20B /* NSObject+LSTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LSTHelper.h"; sourceTree = "<group>"; };
+		F85A39411E4B12B500D6A20B /* NSObject+LSTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LSTHelper.m"; sourceTree = "<group>"; };
+		F85A39441E4B135700D6A20B /* NSBundle+LSTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LSTHelper.h"; sourceTree = "<group>"; };
+		F85A39451E4B135700D6A20B /* NSBundle+LSTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LSTHelper.m"; sourceTree = "<group>"; };
+		F85A39481E4B138800D6A20B /* NSString+LSTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LSTHelper.h"; sourceTree = "<group>"; };
+		F85A39491E4B138800D6A20B /* NSString+LSTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSTHelper.m"; sourceTree = "<group>"; };
+		F85A394C1E4B165B00D6A20B /* FormatScaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatScaner.h; sourceTree = "<group>"; };
+		F85A394D1E4B165B00D6A20B /* FormatScaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatScaner.m; sourceTree = "<group>"; };
+		F85A39521E4B191200D6A20B /* UILabel+LSTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LSTHelper.h"; sourceTree = "<group>"; };
+		F85A39531E4B191200D6A20B /* UILabel+LSTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LSTHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,14 +78,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F85A39001E4B057600D6A20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85A39501E4B173000D6A20B /* LocalizedStringTracker.framework in Frameworks */,
+				1A8C71CF67E0C39378808589 /* Pods_example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96554F9A4DAC01628645D35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73997CDC6B381EA9DE4BE1CA /* Pods_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1354A7627309CD2A5687F97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				003881AAF16A28CE9FFCA0E6 /* Pods-example.debug.xcconfig */,
+				1EBD7754B5CB93AB90E4C8D0 /* Pods-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F85A38EA1E4B056000D6A20B = {
 			isa = PBXGroup;
 			children = (
 				F85A38F61E4B056100D6A20B /* LocalizedStringTracker */,
+				F85A39041E4B057600D6A20B /* example */,
 				F85A38F51E4B056100D6A20B /* Products */,
+				A1354A7627309CD2A5687F97 /* Pods */,
+				96554F9A4DAC01628645D35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				F85A38F41E4B056100D6A20B /* LocalizedStringTracker.framework */,
+				F85A39031E4B057600D6A20B /* example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +130,68 @@
 		F85A38F61E4B056100D6A20B /* LocalizedStringTracker */ = {
 			isa = PBXGroup;
 			children = (
+				F85A39511E4B18DD00D6A20B /* display */,
+				F85A394C1E4B165B00D6A20B /* FormatScaner.h */,
+				F85A394D1E4B165B00D6A20B /* FormatScaner.m */,
 				F85A38F71E4B056100D6A20B /* LocalizedStringTracker.h */,
 				F85A38F81E4B056100D6A20B /* Info.plist */,
+				F85A39401E4B12B500D6A20B /* NSObject+LSTHelper.h */,
+				F85A39411E4B12B500D6A20B /* NSObject+LSTHelper.m */,
+				F85A39441E4B135700D6A20B /* NSBundle+LSTHelper.h */,
+				F85A39451E4B135700D6A20B /* NSBundle+LSTHelper.m */,
+				F85A39481E4B138800D6A20B /* NSString+LSTHelper.h */,
+				F85A39491E4B138800D6A20B /* NSString+LSTHelper.m */,
 			);
 			path = LocalizedStringTracker;
+			sourceTree = "<group>";
+		};
+		F85A39041E4B057600D6A20B /* example */ = {
+			isa = PBXGroup;
+			children = (
+				F85A393F1E4B126C00D6A20B /* source */,
+				F85A39221E4B0E8600D6A20B /* AppDelegate.h */,
+				F85A39231E4B0E8600D6A20B /* AppDelegate.m */,
+				F85A39251E4B0E8600D6A20B /* LaunchScreen.storyboard */,
+				F85A39111E4B057600D6A20B /* Assets.xcassets */,
+				F85A39161E4B057600D6A20B /* Info.plist */,
+				F85A39051E4B057600D6A20B /* Supporting Files */,
+				F85A39201E4B06DA00D6A20B /* Localizable.strings */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		F85A39051E4B057600D6A20B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85A39061E4B057600D6A20B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85A393F1E4B126C00D6A20B /* source */ = {
+			isa = PBXGroup;
+			children = (
+				F85A393C1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.h */,
+				F85A393D1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.m */,
+				F85A39361E4B0FA700D6A20B /* Post.h */,
+				F85A39371E4B0FA700D6A20B /* Post.m */,
+				F85A39381E4B0FA700D6A20B /* User.h */,
+				F85A39391E4B0FA700D6A20B /* User.m */,
+				F85A39301E4B0F6800D6A20B /* GlobalTimelineViewController.h */,
+				F85A39311E4B0F6800D6A20B /* GlobalTimelineViewController.m */,
+				F85A39321E4B0F6800D6A20B /* PostTableViewCell.h */,
+				F85A39331E4B0F6800D6A20B /* PostTableViewCell.m */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		F85A39511E4B18DD00D6A20B /* display */ = {
+			isa = PBXGroup;
+			children = (
+				F85A39521E4B191200D6A20B /* UILabel+LSTHelper.h */,
+				F85A39531E4B191200D6A20B /* UILabel+LSTHelper.m */,
+			);
+			name = display;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +201,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85A394A1E4B138800D6A20B /* NSString+LSTHelper.h in Headers */,
+				F85A39421E4B12B500D6A20B /* NSObject+LSTHelper.h in Headers */,
 				F85A38F91E4B056100D6A20B /* LocalizedStringTracker.h in Headers */,
+				F85A394E1E4B165B00D6A20B /* FormatScaner.h in Headers */,
+				F85A39461E4B135700D6A20B /* NSBundle+LSTHelper.h in Headers */,
+				F85A39541E4B191200D6A20B /* UILabel+LSTHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +231,26 @@
 			productReference = F85A38F41E4B056100D6A20B /* LocalizedStringTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F85A39021E4B057600D6A20B /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85A39171E4B057600D6A20B /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				49F2C3988548675F0A690EF4 /* [CP] Check Pods Manifest.lock */,
+				F85A38FF1E4B057600D6A20B /* Sources */,
+				F85A39001E4B057600D6A20B /* Frameworks */,
+				F85A39011E4B057600D6A20B /* Resources */,
+				27758EE6B7CB34ED826315FD /* [CP] Embed Pods Frameworks */,
+				09A3E6306C512FE90806F8B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = example;
+			productName = example;
+			productReference = F85A39031E4B057600D6A20B /* example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +264,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					F85A39021E4B057600D6A20B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F85A38EE1E4B056000D6A20B /* Build configuration list for PBXProject "LocalizedStringTracker" */;
@@ -105,6 +276,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				"zh-Hans",
 			);
 			mainGroup = F85A38EA1E4B056000D6A20B;
 			productRefGroup = F85A38F51E4B056100D6A20B /* Products */;
@@ -112,6 +285,7 @@
 			projectRoot = "";
 			targets = (
 				F85A38F31E4B056100D6A20B /* LocalizedStringTracker */,
+				F85A39021E4B057600D6A20B /* example */,
 			);
 		};
 /* End PBXProject section */
@@ -124,23 +298,113 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F85A39011E4B057600D6A20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85A391E1E4B06DA00D6A20B /* Localizable.strings in Resources */,
+				F85A39291E4B0E8600D6A20B /* LaunchScreen.storyboard in Resources */,
+				F85A39121E4B057600D6A20B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A3E6306C512FE90806F8B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-example/Pods-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27758EE6B7CB34ED826315FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-example/Pods-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F2C3988548675F0A690EF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F85A38EF1E4B056100D6A20B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85A394B1E4B138800D6A20B /* NSString+LSTHelper.m in Sources */,
+				F85A39471E4B135700D6A20B /* NSBundle+LSTHelper.m in Sources */,
+				F85A394F1E4B165B00D6A20B /* FormatScaner.m in Sources */,
+				F85A39431E4B12B500D6A20B /* NSObject+LSTHelper.m in Sources */,
+				F85A39551E4B191200D6A20B /* UILabel+LSTHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85A38FF1E4B057600D6A20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85A393A1E4B0FA700D6A20B /* Post.m in Sources */,
+				F85A39271E4B0E8600D6A20B /* AppDelegate.m in Sources */,
+				F85A393B1E4B0FA700D6A20B /* User.m in Sources */,
+				F85A39071E4B057600D6A20B /* main.m in Sources */,
+				F85A39341E4B0F6800D6A20B /* GlobalTimelineViewController.m in Sources */,
+				F85A39351E4B0F6800D6A20B /* PostTableViewCell.m in Sources */,
+				F85A393E1E4B0FCA00D6A20B /* AFAppDotNetAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F85A39201E4B06DA00D6A20B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85A391F1E4B06DA00D6A20B /* en */,
+				F85A39211E4B06DF00D6A20B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F85A38FA1E4B056100D6A20B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -192,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -267,6 +532,30 @@
 			};
 			name = Release;
 		};
+		F85A39181E4B057600D6A20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003881AAF16A28CE9FFCA0E6 /* Pods-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orcman.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F85A39191E4B057600D6A20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBD7754B5CB93AB90E4C8D0 /* Pods-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orcman.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -286,6 +575,16 @@
 				F85A38FE1E4B056100D6A20B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85A39171E4B057600D6A20B /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85A39181E4B057600D6A20B /* Debug */,
+				F85A39191E4B057600D6A20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

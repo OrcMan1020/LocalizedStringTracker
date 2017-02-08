@@ -10,4 +10,8 @@
 
 @interface NSObject (LSTHelper)
 
++ (void)swizzleClassMethod:(SEL)origSelector withMethod:(SEL)newSelector;
+- (void)swizzleInstanceMethod:(SEL)origSelector withMethod:(SEL)newSelector;
+
+
 @end

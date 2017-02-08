@@ -10,4 +10,14 @@
 
 @interface UILabel (LSTHelper)
 
+@property (nonatomic) BOOL localized;
+-(void)enableHighlight;
+-(void)disableHighlight;
+
 @end
+@interface CALayer (Swizzle)
+
+@property (nonatomic) NSUInteger tag;
+
+@end
+

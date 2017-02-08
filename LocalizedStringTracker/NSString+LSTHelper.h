@@ -10,4 +10,32 @@
 
 @interface NSString (LSTHelper)
 
+@property (nonatomic) BOOL gslocalized;
+@property (nonatomic) NSString* nativeString;
+
 @end
+
+@interface NSMutableString (LSTHelper)
+
+@end
+
+
+//@interface NSAttributedString (LSTHelper)
+//
+//@property (nonatomic) BOOL localized;
+//
+//
+//@end
+//
+//
+//@interface NSMutableAttributedString (LSTHelper)
+//
+//@end
+//
+//@interface NSDateFormatter (LSTHelper)
+//
+//@end
+//
+//@interface UILocalizedIndexedCollation(LSTHelper)
+//
+//@end
