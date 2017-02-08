@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizedStringTracker
+
+  Created by saix on 2017/2/8.
+  Copyright © 2017年 orcman. All rights reserved.
+*/
+"AFNetworking" = "AFNetworking";
+"Get %u records from AFNetworking" = "从AFNetworking获取了%u条记录";
+"More" = "更多";
+"Name:" = "名字:";
