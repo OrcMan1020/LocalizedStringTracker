@@ -1,5 +1,5 @@
 # LocalizedStringTracker
-track those localized string
+track those localized strings
 
 
 
