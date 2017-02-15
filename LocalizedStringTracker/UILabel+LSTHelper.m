@@ -3,7 +3,7 @@
 //  LocalizedStringTracker
 //
 //  Created by saix on 2017/2/8.
-//  Copyright © 2017年 orcman. All rights reserved.
+//
 //
 
 #import "UILabel+LSTHelper.h"
@@ -11,7 +11,6 @@
 #import "NSString+LSTHelper.h"
 #import "NSObject+LSTHelper.h"
 #import <objc/runtime.h>
-//#import "UIView+AutomationSupport.h"
 
 BOOL needHighlight = YES;
 
@@ -62,8 +61,8 @@ static void * CALayerTagPropertyKey = &CALayerTagPropertyKey;
         {
             [class swizzleInstanceMethod:@selector(setText:) withMethod:@selector(mySetText:)];
             
-//            [self swizzleInstanceMethod:@selector(setAttributedText:) withMethod:@selector(setAttributedTextHook:)];
-//            [self swizzleInstanceMethod:@selector(_setAttributedText:andTakeOwnership:) withMethod:@selector(_setAttributedText:andTakeOwnershipHook:)];
+            [self swizzleInstanceMethod:@selector(setAttributedText:) withMethod:@selector(mySetAttributedText::)];
+            [self swizzleInstanceMethod:@selector(_setAttributedText:andTakeOwnership:) withMethod:@selector(my_setAttributedText:andTakeOwnership:)];
             
         }
         
@@ -135,7 +134,7 @@ static void * CALayerTagPropertyKey = &CALayerTagPropertyKey;
 //
 //-(void)enableHighlight
 //{
-//    
+//
 //    [super enableHighlight];
 //    //    if(self.localized){
 //    //
@@ -188,26 +187,26 @@ static void * CALayerTagPropertyKey = &CALayerTagPropertyKey;
     [self highlightBorder];
 }
 
-//-(void)setAttributedTextHook:(NSAttributedString *)attributedText
-//{
-//    
-//    //    if(![self isKindOfClass:NSClassFromString(@"UISegmentLabel")]){
-//    self.localized = attributedText.localized;
-//    //    }
-//    [self setAttributedTextHook:attributedText];
-//    
-//    [self highlightBorder];
-//}
+-(void)mySetAttributedText:(NSAttributedString *)attributedText
+{
+    
+    //    if(![self isKindOfClass:NSClassFromString(@"UISegmentLabel")]){
+    self.localized = attributedText.gslocalized;
+    //    }
+    [self mySetAttributedText:attributedText];
+    
+    [self highlightBorder];
+}
 
-//- (void)_setAttributedText:(id)arg1 andTakeOwnershipHook:(_Bool)arg2
-//{
-//    [self _setAttributedText:arg1 andTakeOwnershipHook:arg2];
-//    NSAttributedString* attrString = (NSAttributedString*)arg1;
-//    self.localized = attrString.localized;
-//    
-//    [self highlightBorder];
-//    
-//}
+- (void)my_setAttributedText:(id)arg1 andTakeOwnership:(_Bool)arg2
+{
+    [self my_setAttributedText:arg1 andTakeOwnership:arg2];
+    NSAttributedString* attrString = (NSAttributedString*)arg1;
+    self.localized = attrString.gslocalized;
+    
+    [self highlightBorder];
+    
+}
 
 @end
 

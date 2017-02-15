@@ -4,7 +4,6 @@
 //  More detail please see GNUStep
 //
 //  Created by saix on 16/11/19.
-//  Copyright © 2016年 citrix. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
